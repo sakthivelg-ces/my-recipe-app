@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  
+  loadFeature: string;
+
+  onNavigate(feature: string){
+    this.loadFeature = feature;
+  }
 }
